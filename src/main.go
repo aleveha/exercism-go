@@ -6,6 +6,9 @@ import (
 	escape "exercism-go/src/3-escape"
 	weather "exercism-go/src/4-weather"
 	cars "exercism-go/src/5-cars"
+	techpalace "exercism-go/src/6-techpalace"
+	partyrobot "exercism-go/src/7-partyrobot"
+	purchase "exercism-go/src/8-purchase"
 	"fmt"
 )
 
@@ -33,5 +36,20 @@ func main() {
 	// 5. Cars
 	fmt.Println("5. Cars")
 	cars.Run()
+	fmt.Println()
+
+	// 6. Welcome
+	fmt.Println("6. Welcome")
+	techpalace.Run()
+	fmt.Println()
+
+	// 7. Party robot
+	fmt.Println("7. Party robot")
+	partyrobot.Run()
+	fmt.Println()
+
+	// 8. Vehicle Purchase
+	fmt.Println("7. Vehicle Purchase")
+	purchase.Run()
 	fmt.Println()
 }
