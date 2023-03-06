@@ -2,6 +2,7 @@ package main
 
 import (
 	helloWorld "exercism-go/src/1-hello-world"
+	speed "exercism-go/src/10-speed"
 	lasagna "exercism-go/src/2-lasagna"
 	escape "exercism-go/src/3-escape"
 	weather "exercism-go/src/4-weather"
@@ -9,6 +10,7 @@ import (
 	techpalace "exercism-go/src/6-techpalace"
 	partyrobot "exercism-go/src/7-partyrobot"
 	purchase "exercism-go/src/8-purchase"
+	blackjack "exercism-go/src/9-blackjack"
 	"fmt"
 )
 
@@ -49,7 +51,17 @@ func main() {
 	fmt.Println()
 
 	// 8. Vehicle Purchase
-	fmt.Println("7. Vehicle Purchase")
+	fmt.Println("8. Vehicle Purchase")
 	purchase.Run()
+	fmt.Println()
+
+	// 9. Blackjack
+	fmt.Println("9. Blackjack")
+	blackjack.Run()
+	fmt.Println()
+
+	// 10. Speed
+	fmt.Println("10. Speed")
+	speed.Run()
 	fmt.Println()
 }
