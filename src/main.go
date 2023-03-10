@@ -3,6 +3,7 @@ package main
 import (
 	helloWorld "exercism-go/src/1-hello-world"
 	speed "exercism-go/src/10-speed"
+	cards "exercism-go/src/11-cards"
 	lasagna "exercism-go/src/2-lasagna"
 	escape "exercism-go/src/3-escape"
 	weather "exercism-go/src/4-weather"
@@ -63,5 +64,10 @@ func main() {
 	// 10. Speed
 	fmt.Println("10. Speed")
 	speed.Run()
+	fmt.Println()
+
+	// 11. Cards
+	fmt.Println("11. Cards")
+	cards.Run()
 	fmt.Println()
 }
