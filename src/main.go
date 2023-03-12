@@ -4,6 +4,8 @@ import (
 	helloWorld "exercism-go/src/1-hello-world"
 	speed "exercism-go/src/10-speed"
 	cards "exercism-go/src/11-cards"
+	chance "exercism-go/src/12-chance"
+	birdwatcher "exercism-go/src/13-birdwatcher"
 	lasagna "exercism-go/src/2-lasagna"
 	escape "exercism-go/src/3-escape"
 	weather "exercism-go/src/4-weather"
@@ -69,5 +71,15 @@ func main() {
 	// 11. Cards
 	fmt.Println("11. Cards")
 	cards.Run()
+	fmt.Println()
+
+	// 12. Chance
+	fmt.Println("12. Chance")
+	chance.Run()
+	fmt.Println()
+
+	// 13. Birdwatcher
+	fmt.Println("13. Birdwatcher")
+	birdwatcher.Run()
 	fmt.Println()
 }
